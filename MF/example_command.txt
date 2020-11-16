@@ -1,0 +1,2 @@
+python MF/train.py --dataset ml_10m --epoch 2000 --regs 1e-5 --save_flag 1 --log_interval 10 --start 0 --end 10 --step 1 --batch_size 1024 --lr 1e-3 --cuda 2 --train rubibceboth --test rubi --saveID 3branch --pretrain 0
+python MF/train.py --dataset ml_10m --epoch 2000 --regs 1e-5 --save_flag 1 --log_interval 10 --start 0 --end 10 --step 1 --batch_size 1024 --lr 1e-3 --cuda 3 --train normal --test normal --saveID normal --pretrain 0
